@@ -1,0 +1,45 @@
+.login-zalo-wrap, .login-zalo-wrap *{ 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+.login-zalo-wrap {
+	display: inline-block;
+	height: 50px;
+	margin: 5px 0;
+}
+.login-zalo-wrap.wp-login {
+	width: 100%;	
+}
+.login-zalo-wrap.login-zalo-wrap-bottom {
+	margin-top: 15px;
+}
+.zalo-button {
+	background-color: #008BE6;
+	border-radius: 5px;
+	display: inline-block;
+	height: 50px;
+	line-height: 40px;
+	padding: 5px 15px;
+	-webkit-box-shadow: 2px 2px 15px 0px rgb(0 0 0 / 10%);
+    box-shadow: 2px 2px 15px 0px rgb(0 0 0 / 10%);
+}
+.login-zalo-wrap.wp-login .zalo-button {
+	height: 40px;
+	width: 90%;
+}
+.zalo-button .zalo-button-icon {
+	float: left;
+	height: 34px;
+	margin: 3px 10px 3px 3px;
+}
+.zalo-button .zalo-button-label {
+	color: #FFF;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+a.zalo-button:link, a.zalo-button:visited, a.zalo-button:active {
+	background-color: #008BE6 !important;
+	color: #FFF;	
+}

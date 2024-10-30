@@ -1,0 +1,184 @@
+@media screen and (max-width: 782px) {
+	.auto-fold #wpcontent {
+		position: relative;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.ufa-form .col-header {
+		margin-bottom: 10px;
+	}
+	.ufa-nav span.label {
+		display: none;
+	}
+	.ufa-nav .nav-item-support {
+		right: 35px !important;
+	}
+	.ufa-nav .nav-item-beer {
+		right: 0;
+	}
+	.nav-item-beer .dashicons-beer:before {
+		color: #ff982c;
+	}
+}
+.form-control {
+	font-size: 14px;
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+	color: #333;
+	padding: 5px 15px;
+}
+input[type=checkbox],
+input[type=radio] {
+    border: 1px solid #ddd;
+	border-radius: 3px;
+}
+code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+}
+.row-margin-bottom {
+    margin-bottom: 15px;
+}
+.col-content dl,
+.col-content ol,
+.col-content ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 15px;
+}
+.col-md-12 {
+	padding: 0 20px;
+}
+#wpcontent {
+	background-color: #f4f4f4;
+	padding: 0;
+}
+#wpcontent .ufa-wrap {
+	margin: 0;
+	padding: 0;
+}
+#wpcontent .ufa-container {
+	border-top: 3px #ff982d solid;
+
+}
+.ufa-logo {
+	margin: 20px 0;
+	height: 25px;
+	width: auto;
+}
+.ufa-nav {
+	background-color: #FFF;
+	height: 50px;
+	line-height: 50px;
+}
+.ufa-nav i {
+	line-height: 50px;
+}
+.ufa-nav ul.nav {
+	font-size: 14px;
+	position: relative;
+}
+.ufa-nav ul.nav li {
+	border-bottom: 2px #fff solid;
+	margin-top: -2px;
+}
+.ufa-nav ul.nav li.active {
+	border-bottom: 2px #ff982d solid;
+	margin-top: -2px;
+}
+.ufa-nav ul.nav a {
+	color: #555555;
+}
+.ufa-nav ul.nav a {
+	text-decoration: none;
+}
+.ufa-nav .nav-item-support {
+	position: absolute;
+	right: 150px;
+}
+.ufa-nav .nav-item-beer {
+	position: absolute;
+	right: 0;
+}
+
+.ufa-form {
+	padding: 0 15px;
+}
+.ufa-form .form-header {
+	position: relative;
+}
+.ufa-form .form-header h2 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.ufa-form .form-footer {
+	border-top: .5px #e4e4e4 solid;
+	padding: 15px 0;
+	margin: 0 -15px;
+	position: relative;
+}
+.ufa-form .form-footer .form-footer-version {
+	color: #50575e;
+	float: right;
+}
+.ufa-form .form-group {
+	font-size: 14px;
+	margin: 0;
+	padding: 10px 0;
+}
+.ufa-form .col-border-bottom {
+	border-bottom: .5px #e4e4e4 solid;
+	padding: 0px;
+}
+.ufa-form .col-header {
+	color: #333333;
+	font-weight: 600;
+	padding-left: 0px;
+}
+.ufa-form .col-content {
+	color: #333333;
+	padding-bottom: 15px;
+}
+.ufa-form .form-content .form-group:last-child .col-border-bottom {
+	border-bottom: none;
+}
+.ufa-form .description {
+	color: #777777;
+}
+.ufa-form .btn-primary {
+	background-color: #ff982d;
+	border-color: #ff982d;
+	font-size: 14px;
+}
+.form-footer-version {
+    display: inline-flex;
+    font-size: 12px;
+}
+
+.no-padding {
+    padding: 0;
+}
